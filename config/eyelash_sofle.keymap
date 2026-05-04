@@ -128,11 +128,11 @@
         misc {
             display-name = "Misc/Nav";
             bindings = <
-&trans      &trans           &trans          &trans          &trans           &trans       &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans           &trans
-&trans      &trans           &mkp LCLK       &mkp MCLK       &mkp RCLK        &mkp MB4     &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &trans           &trans
-&trans      &kp INSERT       &trans          &trans          &trans           &mkp MB5     &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &trans           &trans
-&trans      &trans           &trans          &trans          &trans           &trans       &mmv MOVE_RIGHT  &trans           &trans           &kp INSERT  &trans     &trans          &trans
-&kp C_MUTE  &trans           &trans          &trans          &trans           &trans       &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&trans      &trans           &trans          &trans         &trans           &trans       &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans     &trans
+&trans      &trans           &mkp LCLK       &mkp MCLK      &mkp RCLK        &mkp MB4     &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &trans     &trans
+&trans      &kp INSERT       &&kp K_CMENU    &trans         &trans           &mkp MB5     &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &trans     &trans
+&trans      &trans           &trans          &trans         &trans           &trans       &mmv MOVE_RIGHT  &trans           &trans           &kp INSERT  &trans     &trans     &trans
+&kp C_MUTE  &trans           &trans          &trans         &trans           &trans       &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -152,6 +152,7 @@
         };
 
         linux1 {
+            display-name = "Linux1";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -160,11 +161,11 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            display-name = "Linux1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         linux2 {
+            display-name = "Linux2";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -173,7 +174,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            display-name = "Linux2";
             sensor-bindings = <&scroll_encoder>;
         };
     };
