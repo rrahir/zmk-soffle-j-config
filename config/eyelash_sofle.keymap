@@ -97,15 +97,15 @@
         // |   @   |  1  |  2  |  3   |  4   |  5   |   *   |  6   |  7    |  8    |  9   |   0   |  BACKSPACE |
         // |  ESC  |  A  |  Z  |  E   |  R   |  T   |   *   |  Y   |  U    |  I    |  O   |   P   |   DELETE   |
         // |  TAB  |  Q  |  S  |  D   |  F   |  G   |   *   |  H   |  J    |  K    |  L   |   M   |     -      |
-        // | SHIFT |  W  |  X  |  C   |  V   |  B   |   *   |  N   |  ,    |  ,    |  .   |   /   |   ENTER    | // TODO the double comma looks falsy
+        // | SHIFT |  W  |  X  |  C   |  V   |  B   |   *   |  N   |  ,    |  ;    |  :   |   /   |   ENTER    | // TODO the double comma looks falsy
         // TODO
         mac1 {
             display-name = "Mac1";
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8            &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp FR_A   &kp FR_Z      &kp FR_E      &kp FR_R   &kp FR_T     &kp DOWN_ARROW   &kp FR_Y   &kp FR_U       &kp FR_I          &kp FR_O         &kp FR_P    &kp BSLH
-&kp LCTRL   &kp FR_Q   &kp  FR_S     &kp FR_D      &kp FR_F   &kp FR_G     &kp LEFT_ARROW   &kp FR_H   &kp FR_J       &kp FR_K          &kp FR_L         &kp FR_M    &kp FR_MINUS
-&kp LSHFT   &kp FR_W   &kp FR_X      &kp FR_C      &kp FR_V   &kp FR_B     &kp RIGHT_ARROW  &kp FR_N   &kp FR_COMMA   &kp FR_SEMICOLON  &kp DOT          &kp FSLH    &kp ENTER
+&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8            &kp N9           &kp N0        &kp BACKSPACE
+&kp TAB     &kp FR_A   &kp FR_Z      &kp FR_E      &kp FR_R   &kp FR_T     &kp DOWN_ARROW   &kp FR_Y   &kp FR_U       &kp FR_I          &kp FR_O         &kp FR_P      &kp BSLH
+&kp LCTRL   &kp FR_Q   &kp  FR_S     &kp FR_D      &kp FR_F   &kp FR_G     &kp LEFT_ARROW   &kp FR_H   &kp FR_J       &kp FR_K          &kp FR_L         &kp FR_M      &kp FR_MINUS
+&kp LSHFT   &kp FR_W   &kp FR_X      &kp FR_C      &kp FR_V   &kp FR_B     &kp RIGHT_ARROW  &kp FR_N   &kp FR_COMMA   &kp FR_SEMICOLON  &kp DOT          &kp FSLH      &kp ENTER
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo MAC2   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER      &mo MISC          &kp RIGHT_SHIFT  &kp DELETE
             >;
 
