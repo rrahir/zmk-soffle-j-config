@@ -113,6 +113,19 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
+        linux1 {
+            bindings = <
+            &kp ESC     &kp N1      &kp N2         &kp N3         &kp N4      &kp N5        &kp UP_ARROW     &kp N6      &kp N7          &kp N8             &kp N9            &kp N0       &kp BACKSPACE
+            &kp TAB     &kp FRX_A   &kp FRX_Z      &kp FRX_E      &kp FRX_R   &kp FRX_T     &kp DOWN_ARROW   &kp FRX_Y   &kp FRX_U       &kp FRX_I          &kp FRX_O         &kp FRX_P    &kp BSLH
+            &kp LCTRL   &kp FRX_Q   &kp  FRX_S     &kp FRX_D      &kp FRX_F   &kp FRX_G     &kp LEFT_ARROW   &kp FRX_H   &kp FRX_J       &kp FRX_K          &kp FRX_L         &kp FRX_M    &kp FRX_MINUS
+            &kp LSHFT   &kp FRX_W   &kp FRX_X      &kp FRX_C      &kp FRX_V   &kp FRX_B     &kp RIGHT_ARROW  &kp FRX_N   &kp FRX_COMMA   &kp FRX_SEMICOLON  &kp DOT           &kp FSLH     &kp ENTER
+            &kp C_MUTE  &kp LCTRL   &kp LEFT_GUI   &kp LEFT_ALT   &mo LINUX2  &kp SPACE     &kp ENTER        &kp SPACE   &kp ENTER       &mo MISC           &kp RIGHT_SHIFT   &kp DELETE
+            >;
+            
+            display-name = "Linux1";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
         mac2 {
             bindings = <
             &kp FR_AT   &kp F1    &kp F2     &kp F3        &kp F4         &kp F5        &mmv MOVE_UP     &kp F6          &kp F7       &kp F8       &kp F9            &kp F10       &kp F11
@@ -123,6 +136,19 @@
             >;
             
             display-name = "Mac2";
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        linux2 {
+            bindings = <
+            &kp FRX_AT   &kp F1    &kp F2    &kp F3         &kp F4         &kp F5         &mmv MOVE_UP     &kp F6           &kp F7        &kp F8        &kp F9             &kp F10        &kp F11
+            &trans      &trans    &trans     &kp FRX_ACUTE  &kp FRX_CARET  &kp FRX_GRAVE  &mmv MOVE_DOWN   &kp FRX_PERCENT  &kp FRX_LBKT  &kp FRX_RBKT  &kp FRX_PLUS       &kp FRX_MINUS  &kp F12
+            &trans      &trans    &trans     &kp FRX_LT     &kp FRX_UMLAUT &kp FRX_GT     &mmv MOVE_LEFT   &kp FRX_DOLLAR   &kp FRX_LPAR  &kp FRX_RPAR  &kp FRX_AMPERSAND  &kp FRX_PIPE   &kp FRX_BSLH
+            &trans      &trans    &kp K_CUT  &kp K_COPY     &kp K_PASTE    &trans         &mmv MOVE_RIGHT  &kp FRX_UNDER    &kp FRX_LBRC  &kp FRX_RBRC  &kp FRX_ASTRK      &kp FRX_SLASH  &kp FRX_TILDE
+            &kp C_MUTE  &trans    &trans     &trans         &trans         &trans         &mkp LCLK        &trans           &trans        &mo MISC      &trans             &trans
+            >;
+            
+            display-name = "Linux2";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -149,32 +175,6 @@
             >;
 
             display-name = "Config";
-            sensor-bindings = <&scroll_encoder>;
-        };
- 
-        linux1 {
-            bindings = <
-            &kp ESC     &kp N1      &kp N2         &kp N3         &kp N4      &kp N5        &kp UP_ARROW     &kp N6      &kp N7          &kp N8             &kp N9            &kp N0       &kp BACKSPACE
-            &kp TAB     &kp FRX_A   &kp FRX_Z      &kp FRX_E      &kp FRX_R   &kp FRX_T     &kp DOWN_ARROW   &kp FRX_Y   &kp FRX_U       &kp FRX_I          &kp FRX_O         &kp FRX_P    &kp BSLH
-            &kp LCTRL   &kp FRX_Q   &kp  FRX_S     &kp FRX_D      &kp FRX_F   &kp FRX_G     &kp LEFT_ARROW   &kp FRX_H   &kp FRX_J       &kp FRX_K          &kp FRX_L         &kp FRX_M    &kp FRX_MINUS
-            &kp LSHFT   &kp FRX_W   &kp FRX_X      &kp FRX_C      &kp FRX_V   &kp FRX_B     &kp RIGHT_ARROW  &kp FRX_N   &kp FRX_COMMA   &kp FRX_SEMICOLON  &kp DOT           &kp FSLH     &kp ENTER
-            &kp C_MUTE  &kp LCTRL   &kp LEFT_GUI   &kp LEFT_ALT   &mo LINUX2  &kp SPACE     &kp ENTER        &kp SPACE   &kp ENTER       &mo MISC           &kp RIGHT_SHIFT   &kp DELETE
-            >;
-            
-            display-name = "Linux1";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-        };
-
-        linux2 {
-            bindings = <
-            &kp FRX_AT   &kp F1    &kp F2    &kp F3         &kp F4         &kp F5         &mmv MOVE_UP     &kp F6           &kp F7        &kp F8        &kp F9             &kp F10        &kp F11
-            &trans      &trans    &trans     &kp FRX_ACUTE  &kp FRX_CARET  &kp FRX_GRAVE  &mmv MOVE_DOWN   &kp FRX_PERCENT  &kp FRX_LBKT  &kp FRX_RBKT  &kp FRX_PLUS       &kp FRX_MINUS  &kp F12
-            &trans      &trans    &trans     &kp FRX_LT     &kp FRX_UMLAUT &kp FRX_GT     &mmv MOVE_LEFT   &kp FRX_DOLLAR   &kp FRX_LPAR  &kp FRX_RPAR  &kp FRX_AMPERSAND  &kp FRX_PIPE   &kp FRX_BSLH
-            &trans      &trans    &kp K_CUT  &kp K_COPY     &kp K_PASTE    &trans         &mmv MOVE_RIGHT  &kp FRX_UNDER    &kp FRX_LBRC  &kp FRX_RBRC  &kp FRX_ASTRK      &kp FRX_SLASH  &kp FRX_TILDE
-            &kp C_MUTE  &trans    &trans     &trans         &trans         &trans         &mkp LCLK        &trans           &trans        &mo MISC      &trans             &trans
-            >;
-            
-            display-name = "Linux2";
             sensor-bindings = <&scroll_encoder>;
         };
     };
