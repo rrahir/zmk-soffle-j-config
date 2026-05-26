@@ -106,7 +106,7 @@
             &kp TAB     &kp FR_A   &kp FR_Z      &kp FR_E      &kp FR_R   &kp FR_T     &kp DOWN_ARROW   &kp FR_Y   &kp FR_U       &kp FR_I          &kp FR_O         &kp FR_P    &kp BSLH
             &kp LCTRL   &kp FR_Q   &kp  FR_S     &kp FR_D      &kp FR_F   &kp FR_G     &kp LEFT_ARROW   &kp FR_H   &kp FR_J       &kp FR_K          &kp FR_L         &kp FR_M    &kp FR_MINUS
             &kp LSHFT   &kp FR_W   &kp FR_X      &kp FR_C      &kp FR_V   &kp FR_B     &kp RIGHT_ARROW  &kp FR_N   &kp FR_COMMA   &kp FR_SEMICOLON  &kp DOT          &kp FSLH    &kp ENTER
-            &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo MAC2   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER      &mo MISC          &kp RIGHT_SHIFT  &kp DELETE
+            &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 2      &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER      &mo MISC          &kp RIGHT_SHIFT  &kp DELETE
             >;
             
             display-name = "Mac1";
