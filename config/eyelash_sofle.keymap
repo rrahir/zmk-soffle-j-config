@@ -16,12 +16,12 @@
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
-#define MAC1 0
-#define MAC2 1
-#define MISC 2
-#define CONFIG 3
-#define LINUX1 4
-#define LINUX2 5
+#define MAC1   0
+#define LINUX1 1
+#define MAC2   2
+#define LINUX2 3
+#define MISC   4
+#define CONFIG 5
 
 &msc {
     acceleration-exponent = <1>;      // 0
@@ -119,7 +119,7 @@
             &trans      &trans    &trans     &kp FR_ACUTE  &kp FR_CARET   &kp FR_GRAVE  &mmv MOVE_DOWN   &kp FR_PERCENT  &kp FR_LBKT  &kp FR_RBKT  &kp FR_PLUS       &kp FR_MINUS  &kp F12
             &trans      &trans    &trans     &kp FR_LT     &kp FR_UMLAUT  &kp FR_GT     &mmv MOVE_LEFT   &kp FR_DOLLAR   &kp FR_LPAR  &kp FR_RPAR  &kp FR_AMPERSAND  &kp FR_PIPE   &kp FR_BSLH
             &trans      &trans    &kp K_CUT  &kp K_COPY    &kp K_PASTE    &trans        &mmv MOVE_RIGHT  &kp FR_UNDER    &kp FR_LBRC  &kp FR_RBRC  &kp FR_ASTRK      &kp FR_SLASH  &kp FR_TILDE
-            &kp C_MUTE  &trans    &trans     &trans        &trans         &trans        &mkp LCLK        &trans          &trans       &trans       &trans            &trans
+            &kp C_MUTE  &trans    &trans     &trans        &trans         &trans        &mkp LCLK        &trans          &trans       &mo MISC     &trans            &trans
             >;
             
             display-name = "Mac2";
@@ -171,7 +171,7 @@
             &trans      &trans    &trans     &kp FRX_ACUTE  &kp FRX_CARET  &kp FRX_GRAVE  &mmv MOVE_DOWN   &kp FRX_PERCENT  &kp FRX_LBKT  &kp FRX_RBKT  &kp FRX_PLUS       &kp FRX_MINUS  &kp F12
             &trans      &trans    &trans     &kp FRX_LT     &kp FRX_UMLAUT &kp FRX_GT     &mmv MOVE_LEFT   &kp FRX_DOLLAR   &kp FRX_LPAR  &kp FRX_RPAR  &kp FRX_AMPERSAND  &kp FRX_PIPE   &kp FRX_BSLH
             &trans      &trans    &kp K_CUT  &kp K_COPY     &kp K_PASTE    &trans         &mmv MOVE_RIGHT  &kp FRX_UNDER    &kp FRX_LBRC  &kp FRX_RBRC  &kp FRX_ASTRK      &kp FRX_SLASH  &kp FRX_TILDE
-            &kp C_MUTE  &trans    &trans     &trans         &trans         &trans         &mkp LCLK        &trans           &trans        &trans        &trans             &trans
+            &kp C_MUTE  &trans    &trans     &trans         &trans         &trans         &mkp LCLK        &trans           &trans        &mo MISC      &trans             &trans
             >;
             
             display-name = "Linux2";
