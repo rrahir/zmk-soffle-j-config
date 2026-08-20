@@ -128,11 +128,11 @@
 
         mac2 {
             bindings = <
-            &kp FR_AT   &kp F1     &kp F2     &kp F3        &kp F4         &kp F5        &mmv MOVE_UP     &kp F6          &kp F7       &kp F8       &kp F9            &kp F10       &kp F11
-            &trans      &FR_HASH   &trans     &kp FR_ACUTE  &kp FR_CARET   &kp FR_GRAVE  &mmv MOVE_DOWN   &kp FR_PERCENT  &kp FR_LBKT  &kp FR_RBKT  &kp FR_PLUS       &kp FR_MINUS  &kp F12
-            &trans      &trans     &trans     &kp FR_LT     &kp FR_UMLAUT  &kp FR_GT     &mmv MOVE_LEFT   &kp FR_DOLLAR   &kp FR_LPAR  &kp FR_RPAR  &kp FR_AMPERSAND  &kp FR_PIPE   &kp FR_BSLH
-            &trans      &trans     &kp K_CUT  &kp K_COPY    &kp K_PASTE    &trans        &mmv MOVE_RIGHT  &kp FR_UNDER    &kp FR_LBRC  &kp FR_RBRC  &kp FR_ASTRK      &kp FR_SLASH  &kp FR_TILDE
-            &kp C_MUTE  &trans     &trans     &trans        &trans         &trans        &mkp LCLK        &trans          &trans       &mo MISC     &trans            &trans
+            &kp FR_AT   &kp F1       &kp F2     &kp F3        &kp F4         &kp F5        &mmv MOVE_UP     &kp F6          &kp F7       &kp F8       &kp F9            &kp F10       &kp F11
+            &trans      &kp FR_HASH  &trans   &kp FR_ACUTE  &kp FR_CARET   &kp FR_GRAVE  &mmv MOVE_DOWN   &kp FR_PERCENT  &kp FR_LBKT  &kp FR_RBKT  &kp FR_PLUS       &kp FR_MINUS  &kp F12
+            &trans      &trans       &trans     &kp FR_LT     &kp FR_UMLAUT  &kp FR_GT     &mmv MOVE_LEFT   &kp FR_DOLLAR   &kp FR_LPAR  &kp FR_RPAR  &kp FR_AMPERSAND  &kp FR_PIPE   &kp FR_BSLH
+            &trans      &trans       &kp K_CUT  &kp K_COPY    &kp K_PASTE    &trans        &mmv MOVE_RIGHT  &kp FR_UNDER    &kp FR_LBRC  &kp FR_RBRC  &kp FR_ASTRK      &kp FR_SLASH  &kp FR_TILDE
+            &kp C_MUTE  &trans       &trans     &trans        &trans         &trans        &mkp LCLK        &trans          &trans       &mo MISC     &trans            &trans
             >;
             
             display-name = "Mac2";
@@ -141,11 +141,11 @@
 
         linux2 {
             bindings = <
-            &kp FRX_AT   &kp F1    &kp F2     &kp F3         &kp F4         &kp F5         &mmv MOVE_UP     &kp F6           &kp F7        &kp F8        &kp F9             &kp F10        &kp F11
-            &trans      &FRX_HASH &trans     &kp FRX_ACUTE  &kp FRX_CARET  &kp FRX_GRAVE  &mmv MOVE_DOWN   &kp FRX_PERCENT  &kp FRX_LBKT  &kp FRX_RBKT  &kp FRX_PLUS       &kp FRX_MINUS  &kp F12
-            &trans      &trans     &trans     &kp FRX_LT     &kp FRX_UMLAUT &kp FRX_GT     &mmv MOVE_LEFT   &kp FRX_DOLLAR   &kp FRX_LPAR  &kp FRX_RPAR  &kp FRX_AMPERSAND  &kp FRX_PIPE   &kp FRX_BSLH
-            &trans      &trans     &kp K_CUT  &kp K_COPY     &kp K_PASTE    &trans         &mmv MOVE_RIGHT  &kp FRX_UNDER    &kp FRX_LBRC  &kp FRX_RBRC  &kp FRX_ASTRK      &kp FRX_SLASH  &kp FRX_TILDE
-            &kp C_MUTE  &trans     &trans     &trans         &trans         &trans         &mkp LCLK        &trans           &trans        &mo MISC      &trans             &trans
+            &kp FRX_AT   &kp F1      &kp F2     &kp F3         &kp F4         &kp F5         &mmv MOVE_UP     &kp F6           &kp F7        &kp F8        &kp F9             &kp F10        &kp F11
+            &trans       &kp FRX_HASH &trans  &kp FRX_ACUTE  &kp FRX_CARET  &kp FRX_GRAVE  &mmv MOVE_DOWN   &kp FRX_PERCENT  &kp FRX_LBKT  &kp FRX_RBKT  &kp FRX_PLUS       &kp FRX_MINUS  &kp F12
+            &trans       &trans       &trans     &kp FRX_LT     &kp FRX_UMLAUT &kp FRX_GT     &mmv MOVE_LEFT   &kp FRX_DOLLAR   &kp FRX_LPAR  &kp FRX_RPAR  &kp FRX_AMPERSAND  &kp FRX_PIPE   &kp FRX_BSLH
+            &trans       &trans       &kp K_CUT  &kp K_COPY     &kp K_PASTE    &trans         &mmv MOVE_RIGHT  &kp FRX_UNDER    &kp FRX_LBRC  &kp FRX_RBRC  &kp FRX_ASTRK      &kp FRX_SLASH  &kp FRX_TILDE
+            &kp C_MUTE   &trans       &trans     &trans         &trans         &trans         &mkp LCLK        &trans           &trans        &mo MISC      &trans             &trans
             >;
             
             display-name = "Linux2";
