@@ -129,7 +129,7 @@
         mac2 {
             bindings = <
             &kp FR_AT   &kp F1     &kp F2     &kp F3        &kp F4         &kp F5        &mmv MOVE_UP     &kp F6          &kp F7       &kp F8       &kp F9            &kp F10       &kp F11
-            &trans      &FR_POUND  &trans     &kp FR_ACUTE  &kp FR_CARET   &kp FR_GRAVE  &mmv MOVE_DOWN   &kp FR_PERCENT  &kp FR_LBKT  &kp FR_RBKT  &kp FR_PLUS       &kp FR_MINUS  &kp F12
+            &trans      &FR_HASH   &trans     &kp FR_ACUTE  &kp FR_CARET   &kp FR_GRAVE  &mmv MOVE_DOWN   &kp FR_PERCENT  &kp FR_LBKT  &kp FR_RBKT  &kp FR_PLUS       &kp FR_MINUS  &kp F12
             &trans      &trans     &trans     &kp FR_LT     &kp FR_UMLAUT  &kp FR_GT     &mmv MOVE_LEFT   &kp FR_DOLLAR   &kp FR_LPAR  &kp FR_RPAR  &kp FR_AMPERSAND  &kp FR_PIPE   &kp FR_BSLH
             &trans      &trans     &kp K_CUT  &kp K_COPY    &kp K_PASTE    &trans        &mmv MOVE_RIGHT  &kp FR_UNDER    &kp FR_LBRC  &kp FR_RBRC  &kp FR_ASTRK      &kp FR_SLASH  &kp FR_TILDE
             &kp C_MUTE  &trans     &trans     &trans        &trans         &trans        &mkp LCLK        &trans          &trans       &mo MISC     &trans            &trans
